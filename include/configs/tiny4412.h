@@ -326,7 +326,7 @@
 */
 /* Fastboot variables */
 #define CFG_FASTBOOT_TRANSFER_BUFFER            (0x48000000)
-#define CFG_FASTBOOT_TRANSFER_BUFFER_SIZE       (0x18000000)   /* 384MB */
+#define CFG_FASTBOOT_TRANSFER_BUFFER_SIZE       (0x25800000)   /* 600MB */
 #define CFG_FASTBOOT_ADDR_KERNEL                (0x40008000)
 #define CFG_FASTBOOT_ADDR_RAMDISK               (0x41000000)
 #define CFG_FASTBOOT_PAGESIZE                   (2048)  // Page size of booting device
